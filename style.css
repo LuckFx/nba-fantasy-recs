@@ -1,0 +1,39 @@
+/* Basic styling for clarity and mobile‑friendly layout */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controls label {
+  margin: 0 10px;
+}
+
+#results {
+  margin-top: 20px;
+}
+
+.player {
+  background: #e2e2e2;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
