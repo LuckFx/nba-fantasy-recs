@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NBA Fantasy Best Player Recommendations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>NBA Fantasy Best Player Recommendations</h1>
+    <div class="controls">
+      <label>
+        <input type="radio" name="period" value="week" checked />
+        Past Week
+      </label>
+      <label>
+        <input type="radio" name="period" value="month" />
+        Past Month
+      </label>
+      <button id="getRecommendations">Get Recommendations</button>
+    </div>
+    <div id="loading" style="display:none;">Loading data… Please wait.</div>
+    <div id="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
